@@ -1,0 +1,138 @@
+ ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ ul li {
+  float: right;
+}
+ ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+
+}
+.socialmedia {
+  float: left;
+}
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+h1 {
+  font-family: 'alex_brushregular', Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+main div { width: 65%; display: inline-block; }
+
+img, svg { width:250px; height: 300px;}
+
+section {
+	  width: 390px;
+		height:380px;
+		border:1px #ccc solid;
+		float:left;
+		text-align: center;
+		margin:10px;
+		font-size: 24px;
+		padding:20px;
+
+			}
+.Layer_1:hover { fill: blue; }
+
+.Layer_2:hover { fill: #06f605;}
+
+.Layer_3:hover { fill: red; }
+
+.Layer_4:hover { fill: #1da1f2;}
+
+.Layer_5:hover { fill: #d53253;}
+
+.Layer_6:hover { fill: yellow;}
+
+.Layer_7:hover { fill: #00aef3;}
+
+.Layer_8:hover { fill: #e60023;}
+
+.Layer_9:hover { fill: #1da1f2;}
+
+.Layer_10:hover { fill: green;}
+
+.Layer_11:hover { fill: #0274b3;}
+
+.Layer_12:hover { fill: green;}
+
+.button
+{
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+  margin-left: 630px;
+}
+
+.blue
+{
+border: solid 1px #0093C9;
+
+background: rgb(0,183,234); /*non css3 browsers*/
+
+background: -moz-linear-gradient(top, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,183,234,1)), color-stop(100%,rgba(0,158,195,1)));
+
+background: -webkit-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+background: -o-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+background: -ms-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+background: linear-gradient(to bottom, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );
+
+}
+
+.blue:hover
+{
+background: rgb(59,192,229); /*non css3 browsers*/
+
+background: -moz-linear-gradient(top, rgba(59,192,229,1) 0%, rgba(25,162,193,1) 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,192,229,1)), color-stop(100%,rgba(25,162,193,1)));
+
+background: -webkit-linear-gradient(top, rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+background: -o-linear-gradient(top, rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+background: -ms-linear-gradient(top, rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+background: linear-gradient(to bottom, rgba(59,192,229,1) 0%,rgba(25,162,193,1) 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bc0e5', endColorstr='#19a2c1',GradientType=0 );
+
+}
+
+.button:active
+{
+	position: relative;
+	top: 2px;
+}
